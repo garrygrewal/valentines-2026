@@ -260,7 +260,8 @@ Ready to go live? See **[DEPLOY.md](./DEPLOY.md)** for detailed instructions on 
 
 ## 📄 License
 
-This is a personal project. Feel free to use, modify, and share as you like! No attribution required, but appreciated.
+Inspo taken from: [https://willyoubemyvalentine.fun/](https://willyoubemyvalentine.fun/)
+This is a personal project. Feel free to use, modify, and share as you like!
 
 ---
 
