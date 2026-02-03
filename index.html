@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <meta name="description" content="A special Valentine's Day message">
+    <!-- Google Fonts - Dancing Script & Lexend -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Canvas Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <!-- Intro Text Above Card -->
+    <div class="intro-text">
+        <p class="intro-greeting">Hey <span id="recipient-name" class="editable-recepient-name">Manveer</span>,</p>
+        <p class="intro-question"><span id="my-name" class="editable-my-name">Garry</span> has a question for you...</p>
+    </div>
+
+    <!-- Main Card Container -->
+    <div class="card">
+        <!-- Kuromi decoration -->
+        <img src="images/kuromi-head.png" alt="Kuromi" class="kuromi-decoration">
+        
+        <!-- Pug decoration -->
+        <img src="images/pug-head.png" alt="Pug" class="pug-decoration">
+        
+        <!-- Message Text -->
+        <div class="message" id="message">
+            <h1>Will you be my valentine?</h1>
+        </div>
+
+        <!-- Buttons Container -->
+        <div class="buttons" id="buttons">
+            <button id="yes-button" class="btn btn-primary" aria-label="Say yes">
+                Yes 😍
+            </button>
+            <button id="no-button" class="btn btn-secondary" aria-label="Say no">
+                No 😢
+            </button>
+        </div>
+
+        <!-- Helper Text (shown after "No" is clicked) -->
+        <p class="helper-text" id="helper-text" aria-live="polite"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with 💛 by G</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
