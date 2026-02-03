@@ -111,11 +111,11 @@ Want different corner decorations?
 Edit the array in `script.js` (around line 27):
 ```javascript
 const helperMessages = [
-    "Baby please......",
     "Pretty pretty pretty please!",
     "Click yes and I'll buy you more Callico Critters!",
-    "Please, I need that pot roast dinner!",
-    "I'll watch that one hockey show with you if you click Yes!"
+    "I know you want to say yes! 😄",
+    "Baby please......",
+    "Oops, try again! 😄"
 ];
 ```
 Add your own playful messages that show when "No" is hovered/clicked.

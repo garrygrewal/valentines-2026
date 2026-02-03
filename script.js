@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Array of helper messages that cycle through
     const helperMessages = [
-        "Baby please......",
-        "Pretty pretty pretty please!",
+       "Pretty pretty pretty please!",
         "Click yes and I'll buy you more Callico Critters!",
-        "Please, I need that pot roast dinner!",
-        "I'll watch that one hockey show with you if you click Yes!"
+        "I know you want to say yes! 😄",
+        "Baby please......",
+        "Oops, try again! 😄"
     ];
     let currentMessageIndex = 0;
 
